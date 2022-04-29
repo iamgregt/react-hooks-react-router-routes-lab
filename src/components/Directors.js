@@ -6,7 +6,7 @@ function Directors() {
     <h1>Directors Page</h1>
     {directors.map((director) => {
       return (
-        <div>
+        <div key={director.name}>
           {director.name}
           <ul>
             {director.movies.map((movie) =>{

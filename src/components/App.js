@@ -15,7 +15,7 @@ function App() {
         <Home />
       </Route>
       <Route path="/movies">
-        <Movies />
+        <Movies  />
       </Route>
       <Route path="/directors">
         <Directors />

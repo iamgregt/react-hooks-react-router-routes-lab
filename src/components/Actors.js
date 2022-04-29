@@ -7,7 +7,7 @@ function Actors() {
     <h1>Actors Page</h1>
     {actors.map((actor) => {
       return (
-        <div>
+        <div key={actor.name}>
           {actor.name}
           <ul>
             {actor.movies.map((movie) => {
